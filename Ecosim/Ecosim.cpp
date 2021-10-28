@@ -1,9 +1,13 @@
 #include <iostream>
 #include <thread>
+#include <time.h>
+#include <stdio.h>
+#include <stdlib.h>
 using namespace std;
 
 int main()
 {
+    srand(time(NULL));
     int rabbit_pop_increase;
     int rabbit_to_wolf;
     int wolf_pop_increase;
