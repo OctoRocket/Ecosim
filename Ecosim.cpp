@@ -52,7 +52,6 @@ int autorun(float RPI, int WPI, int MRP)
             {
                 wolfs_eat = true;
             }
-
         }
         wolfs = wolfs - 2 ^ rounds_since_ate;
         sleep(wait);
